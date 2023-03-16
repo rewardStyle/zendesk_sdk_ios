@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "ZendeskSDK",
-            targets: ["CommonUISDK", "ZendeskSDK", "ZendeskCoreSDK", "ZendeskProvider"]),
+            targets: ["CommonUISDK", "ZendeskSDK", "ZendeskCoreSDK", "ZendeskProviderSDK"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -28,7 +28,7 @@ let package = Package(
             name: "CommonUISDK",
             path: "Sources/CommonUISDK.xcframework"),
         .binaryTarget(
-            name: "ZendeskProvider",
-            path: "Sources/ZendeskProvider.xcframework"),
+            name: "ZendeskProviderSDK",
+            path: "Sources/ZendeskProviderSDK.xcframework"),
     ]
 )
