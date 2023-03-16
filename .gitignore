@@ -6,6 +6,8 @@
 #
 # Pods/
 
+## User settings
+xcuserdata/
 
 SampleApp/SampleApp.xcodeproj/xcuserdata
 SampleApp.xccheckout
